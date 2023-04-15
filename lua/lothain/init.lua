@@ -1,1 +1,2 @@
-print("hello from lothain")
+print("Lothain Lua Loading")
+vim.cmd[[colorscheme tokyonight-storm]]
