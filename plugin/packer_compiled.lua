@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/lothain/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/lothain/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/lothain/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -149,10 +154,25 @@ _G.packer_plugins = {
     path = "/home/lothain/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-be-good"] = {
+    loaded = true,
+    path = "/home/lothain/.local/share/nvim/site/pack/packer/start/vim-be-good",
+    url = "https://github.com/theprimeagen/vim-be-good"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/lothain/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/home/lothain/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-with-me"] = {
+    loaded = true,
+    path = "/home/lothain/.local/share/nvim/site/pack/packer/start/vim-with-me",
+    url = "https://github.com/theprimeagen/vim-with-me"
   }
 }
 

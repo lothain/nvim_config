@@ -14,14 +14,17 @@ return require('packer').startup(function(use)
   }
 
 
-  use 'folke/tokyonight.nvim'      
+  use 'folke/tokyonight.nvim'
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('tpope/vim-fugitive')
-
+  use('theprimeagen/vim-be-good')
+  use('theprimeagen/vim-with-me')
+  use('github/copilot.vim')
+  use('fatih/vim-go')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
